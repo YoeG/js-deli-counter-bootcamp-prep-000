@@ -46,7 +46,7 @@ function currentLine ()
   
   else
   
-  return `The line is currently ${myArray[0]}`;
+  return `The line is currently what`;
 }
 
 console.log(currentLine())
