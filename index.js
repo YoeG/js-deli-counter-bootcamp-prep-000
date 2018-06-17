@@ -37,4 +37,4 @@ function currentLine ()
   return `The line is currently ${myArray}`;
 }
 
-
+console.log(currentLine())
