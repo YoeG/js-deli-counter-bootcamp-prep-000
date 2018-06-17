@@ -30,10 +30,10 @@ function currentLine ()
   
   {
     
-    myArray.push(`The line is currently ${i}. ${}`)
+    myArray.push(`${i}. ${katzDeli[i]}, `)
     
   }
   
-  return 
+  return `The line is currently ${myArray}`;
 }
 
