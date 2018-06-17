@@ -33,7 +33,7 @@ function currentLine ()
   {
     
     myArray.push(`${i}. ${katzDeli[i]}`)
-    console.log(myArray)
+    console.log(myArray[0])
   }
   
   if (katzDeli.length === 0)
