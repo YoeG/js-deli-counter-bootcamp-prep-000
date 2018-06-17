@@ -26,7 +26,7 @@ function currentLine ()
 {
   var myArray = [];
   
-  for (let i = 0; i < katzDeli.length  - 1, i++; )
+  for (var i = 0; i < katzDeli.length  - 1, i++; )
   
   {
     
