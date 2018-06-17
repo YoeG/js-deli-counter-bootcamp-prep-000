@@ -7,7 +7,7 @@ function takeANumber (katzDeli, name)
 {
   
   katzDeli.push(name)
-  return `Welcome, ${name}. You are number ${parseInt(nPeople.length)} in line.`
+  return `Welcome, ${name}. You are number ${parseInt(katzDeli.length)} in line.`
   
 }
 
