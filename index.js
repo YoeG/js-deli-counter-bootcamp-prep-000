@@ -2,11 +2,11 @@
 
 var katzDeli = [];
 
-function takeANumber (nPeople, name)
+function takeANumber (katzDeli, name)
 
 {
   
-  nPeople.push(name)
+  katzDeli.push(name)
   return `Welcome, ${name}. You are number ${parseInt(nPeople.length)} in line.`
   
 }
