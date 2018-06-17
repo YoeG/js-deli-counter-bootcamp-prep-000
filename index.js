@@ -25,3 +25,10 @@ console.log(katzDeli)
 function currentLine ()
 
 
+{
+  
+  
+  
+}
+
+
