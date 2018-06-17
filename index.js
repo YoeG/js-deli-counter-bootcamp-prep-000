@@ -33,8 +33,8 @@ function currentLine ()
     myArray.push(`${i}. ${katzDeli[i]}, `)
     
   }
-  
+  console.log(myArray)
   return `The line is currently ${myArray}`;
 }
 
-console.log(currentLine())
+
