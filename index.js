@@ -18,7 +18,7 @@ function takeANumber (nPeople, name)
 takeANumber(katzDeli, 'Bill')
 takeANumber(katzDeli, 'Jane')
 takeANumber(katzDeli, 'Ann')
-console.log(katzDeli[0])
+console.log(katzDeli)
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
