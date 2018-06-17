@@ -19,6 +19,7 @@ takeANumber(katzDeli, 'Bill')
 takeANumber(katzDeli, 'Jane')
 takeANumber(katzDeli, 'Ann')
 console.log(katzDeli)
+console.log(takeANumber())
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
