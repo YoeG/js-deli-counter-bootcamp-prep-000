@@ -6,7 +6,7 @@ function takeANumber (nPeople, name)
 
 {
   
-  nPeople.push(name)
+  nPeople.push(parseInt(nPeople.length) + 1 +'. ' + name)
   return `Welcome, ${name}. You are number ${parseInt(nPeople.length)} in line.`
   
 }
