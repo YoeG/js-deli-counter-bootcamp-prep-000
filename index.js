@@ -24,10 +24,15 @@ function currentLine ()
 
 
 {
+  var myArray = [];
   
+  for (let i = 0; i < katzDeli.length  - 1, i++; )
   
-  for (let i = 0; i < katzDeli.length  - 1 )
-  
+  {
+    
+    myArray.push(`The line is currently ${i}. ${}`)
+    
+  }
   
 }
 
