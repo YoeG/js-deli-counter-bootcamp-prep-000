@@ -32,7 +32,7 @@ function currentLine ()
   
   {
     
-    myArray.push(`${i}. ${katzDeli[i]}, `)
+    myArray.push(`${i}. ${katzDeli[i]}`)
     
   }
   
