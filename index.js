@@ -5,7 +5,8 @@ console.log(katzDeli.length)
 function takeANumber (katzDeli, name)
 
 {
-  var i = katzDeli.length
+  
+  
   katzDeli[i] = name
   return `Welcome, ${name}. You are number ${parseInt(katzDeli.length)} in line.`
   
