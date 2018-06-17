@@ -25,28 +25,3 @@ console.log(katzDeli)
 function currentLine ()
 
 
-{
-  var myArray = [];
-  
-  for (var i = 0; i < katzDeli.length  - 1, i++; )
-  
-  {
-    
-    myArray.push(`${i}. ${katzDeli[i]}`)
-    console.log(myArray[0])
-  }
-  
-  if (katzDeli.length === 0)
-  
-  {
-    
-    return 'The line is currently empty.'
-    
-  }
-  
-  else
-  
-  return `The line is currently what`;
-}
-
-console.log(currentLine())
