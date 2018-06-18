@@ -15,7 +15,7 @@ function nowServing ()
 {
   
   var newArray = [];
-  newArray = [...katzDeli];
+  newArray.concat(katzDeli[0])
   
   if (katzDeli.length < 1 )
   
