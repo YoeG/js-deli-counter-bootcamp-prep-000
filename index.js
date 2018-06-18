@@ -11,4 +11,7 @@ function takeANumber (katzDeliLine, newName)
 
 
 takeANumber(katzDeli,'ada');
+takeANumber(katzDeli,'ada');
+
+console.log(katzDeli)
 
