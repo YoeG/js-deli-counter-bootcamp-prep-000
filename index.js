@@ -16,10 +16,22 @@ function nowServing ()
   
   var newArray = [];
   newArray = [...katzDeli];
-  console.log(newArray)      /////////////test
+  
+  if (katzDeli.length < 1 )
+  
+  
+  {
+    
+    return 'There is nobody waiting to be served!';
+    
+  }
+  
+  else
+
   delete katzDeli[0];
-  console.log(katzDeli[0])      /////////////////// test
-  console.log(newArray[0])
+  return ``
+  
+ 
 }
 
 nowServing();
