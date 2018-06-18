@@ -9,8 +9,4 @@ function takeANumber (katzDeliLine, newName)
 }
 
 
-console.log(takeANumber(katzDeli,'ada'));
-takeANumber(katzDeli,'ada');
-
-console.log(katzDeli)
 
