@@ -14,9 +14,8 @@ function nowServing ()
 
 {
   
-  var newArray = [];
-  newArray.concat(katzDeli[0])
-  
+  var string = katzDeli[0];
+  console.log(string)
   if (katzDeli.length < 1 )
   
   
@@ -29,7 +28,7 @@ function nowServing ()
   else
 
   delete katzDeli[0];
-  return `Currently serving ${newArray[1]}`;
+  return `Currently serving ${}`;
 }
 
 nowServing();
