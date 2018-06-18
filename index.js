@@ -31,5 +31,5 @@ function nowServing ()
   return `Currently serving ${deliLine}.`;
 }
 
-console.log(nowServing());
+nowServing();
 
