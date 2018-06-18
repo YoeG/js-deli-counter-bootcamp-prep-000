@@ -31,4 +31,5 @@ function nowServing ()
   return `Currently serving ${string}`;
 }
 
-nowServing();
+console.log(nowServing());
+
