@@ -1,15 +1,13 @@
 
-
+var i;
 var katzDeli = [];
 console.log(katzDeli.length)
 function takeANumber (katzDeli, name)
 
 {
-  
-  
   katzDeli[i] = name
+  i++;
   return `Welcome, ${name}. You are number ${parseInt(katzDeli.length)} in line.`
-  
 }
 
 
