@@ -15,7 +15,7 @@ function nowServing ()
 {
   
   var newArray = [];
-  newArray = [...newArray];
+  newArray = [...katzDeli];
   console.log(newArray)
   
   
