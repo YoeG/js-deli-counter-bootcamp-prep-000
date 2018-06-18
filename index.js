@@ -18,7 +18,7 @@ function nowServing ()
   newArray = [...katzDeli];
   console.log(newArray)      /////////////test
   delete katzDeli[0];
-  console.log(katzDeli)      /////////////////// test
+  console.log(katzDeli[0])      /////////////////// test
   
 }
 
