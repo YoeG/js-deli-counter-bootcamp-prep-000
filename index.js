@@ -10,3 +10,4 @@ function takeANumber (katzDeliLine, newName)
 }
 
 
+takeANumber(katzDeli,newName);
