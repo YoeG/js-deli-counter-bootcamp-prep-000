@@ -26,7 +26,6 @@ function nowServing ()
     
   }
   
-  else
 
   katzDeli.shift();
   return `Currently serving ${string}`;
