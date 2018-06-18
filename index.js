@@ -28,7 +28,7 @@ function nowServing ()
   
 
   katzDeli.shift();
-  return `Currently serving ${string}`;
+  return `Currently serving ${string}.`;
 }
 
 console.log(nowServing());
