@@ -14,7 +14,7 @@ function nowServing ()
 
 {
   
-  var string = katzDeli[0];
+  var deliLine = katzDeli[0];
   console.log(string)
   console.log(katzDeli.length)
   if (katzDeli.length < 1 )
@@ -28,7 +28,7 @@ function nowServing ()
   
 
   katzDeli.shift();
-  return `Currently serving ${string}.`;
+  return `Currently serving ${deliLine}.`;
 }
 
 console.log(nowServing());
