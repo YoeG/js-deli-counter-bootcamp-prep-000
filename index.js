@@ -5,7 +5,7 @@ function takeANumber (katzDeliLine, newName)
 {
   
   katzDeliLine[i] = newName;
-  i++
+  i++;
   return `Welcome ${newName} you are number ${i} in line.`
   
 }
