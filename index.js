@@ -7,7 +7,7 @@ function takeANumber (katzDeliLine, newName)
   return `Welcome, ${newName}. You are number ${katzDeliLine.length} in line.`
   
 }
-takeANumber(katzDeli,'Ada')
+
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 function nowServing ()
@@ -29,7 +29,7 @@ function nowServing ()
   else
 
   delete katzDeli[0];
-  return `Current serving ${newArray[0]}`;
+  return `Currently serving ${newArray[0]}`;
 }
 
 nowServing();
