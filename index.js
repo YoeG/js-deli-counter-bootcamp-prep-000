@@ -29,7 +29,7 @@ function nowServing ()
   else
 
   delete katzDeli[0];
-  return `Currently serving ${newArray[0]}`;
+  return `Currently serving ${newArray[1]}`;
 }
 
 nowServing();
