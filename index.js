@@ -8,5 +8,16 @@ function takeANumber (katzDeliLine, newName)
   
 }
 
+//////////////////////////////////////////////////////////////////////////////////////////////////
 
+function nowServing ()
 
+{
+  
+  var newArray = [...katzDeli];
+  console.log(newArray)
+  
+  
+}
+
+nowServing();
