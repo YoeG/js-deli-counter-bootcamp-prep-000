@@ -17,7 +17,7 @@ function nowServing ()
   var string = katzDeli[0];
   console.log(string)
   if (katzDeli.length < 1 )
-  
+  console.log(katzDeli.length)
   
   {
     
