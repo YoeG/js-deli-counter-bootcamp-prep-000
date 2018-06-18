@@ -10,4 +10,5 @@ function takeANumber (katzDeliLine, newName)
 }
 
 
-takeANumber(katzDeli,newName);
+takeANumber(katzDeli,'ada');
+
