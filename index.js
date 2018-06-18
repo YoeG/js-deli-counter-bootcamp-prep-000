@@ -15,6 +15,7 @@ function nowServing ()
 {
   
   var newArray = [];
+  newArray = [...newArray];
   console.log(newArray)
   
   
